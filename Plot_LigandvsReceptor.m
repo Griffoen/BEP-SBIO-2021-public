@@ -181,7 +181,7 @@ title('mRNAc_SEAP')
 figure(13);
 set(gca, 'ColorOrder', newcolors, 'NextPlot', 'replacechildren');
 % nuclear STAT3
-all_InHib = sum(Yout(:,:,[8,9,11,12]),3);
+all_InHib = sum(Yout(:,:,[8,8,9,11,12]),3);
 plot(T/3600, all_InHib,'-', 'LineWidth',1.5);
 legend(Legend_data)
 xlabel('Time [hour]')
